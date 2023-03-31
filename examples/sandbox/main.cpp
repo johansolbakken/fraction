@@ -15,4 +15,10 @@ int main()
 
     frac::fraction c(0.6);
     std::cout << c << std::endl;
+
+    frac::fraction d(1.0 / 3.0);
+    std::cout << d << std::endl;
+
+    auto e = c + d;
+    std::cout << e << std::endl;
 }
